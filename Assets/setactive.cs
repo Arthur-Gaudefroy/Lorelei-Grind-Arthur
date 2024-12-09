@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class setactive : MonoBehaviour
@@ -10,6 +11,7 @@ public class setactive : MonoBehaviour
     void Start()
     {
         m_cameraToActivate.gameObject.SetActive(true);    
+       
     }
 
     // Update is called once per frame
